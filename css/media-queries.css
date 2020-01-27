@@ -71,7 +71,7 @@ footer div {
 }
 
 
-/* Small devices (tablets, 768px and up) */
+/* Small devices (tablets, 768px and up) ----------------------*/
 @media screen and (min-width:calc(890px + 1em)) {
     .hidden-on-desktop {
         display: none;
@@ -110,18 +110,24 @@ footer div {
         width: 100%;
         /*padding: 1em;*/
     }
+    section h2 {
+        margin: 1em 0;
+    }
     .main {
         grid-area: 3/1/4/3;
         margin: 1em 0;
     }
     .sub-section {
         grid-area: 3/3/4/4;
-        /*margin: 1em;*/
-        /*margin-left: 0;*/
+    /*margin: 1em;*/
+    /*margin-left: 0;*/
     }
-    section h2 {
-        margin: 1em 0;
-    }
+    /*.sub-section h2 {*/
+    /*    margin-top: 1.3em;*/
+    /*}*/
+    /*.sub-section p {*/
+    /*    margin-top: 1.5em;*/
+    /*}*/
     footer {
         grid-area: 4/1/5/4;
         margin: 0;
