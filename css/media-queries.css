@@ -32,9 +32,6 @@ h1 {
     background: darkgray;
     text-align: center;
 }
-.nav-links a {
-    background: darkgray;
-}
 img {
     height: 224px;
     width: 339px;
@@ -45,12 +42,6 @@ img {
 }
 
 
-/* Small devices (tablets, 768px and up) */
-@media screen and (min-width:768px) {
-    .nav-links a {
-        background: none;
-    }
-}
 section {
     margin: 1em 1em 2.5em;
 }
@@ -67,13 +58,39 @@ section p {
     font-size: 1.25em;
 }
 footer {
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     margin: 0 1em;
 }
-/* Medium devices (desktops, 992px and up) */
-@media screen and (min-width:992px) { /* ... */ }
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width:768px) {
+    .hidden-on-desktop {
+        display: none;
+    }
+    h1 {
+        text-align: left;
+        margin: .25em auto.5em ;
+    }
 
-/* Large devices (large desktops, 1200px and up) */
-@media screen and (min-width:1200px) { /* ... */ }
+    .nav-links li {
+        padding: 1em 1em;
+        margin: .5em 1em;
+        background: none;
+        /*text-align: center;*/
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
