@@ -1,12 +1,20 @@
+html {
+    font-family: Arial;
+}
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
 .alert-info>a {
     text-decoration: none;
     color: black;
 }
 .alert-info {
     border: 1px solid gray;
-    padding: 1em auto;
+    padding: 1em 0;
     background: aquamarine;
     text-align: center;
+    margin:1em;
 }
 .nav-links a {
     background: darkgray;
@@ -17,9 +25,14 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin: auto;
+    padding: 0;
 }
 .nav-links>li {
+    padding: 1em calc(100vw - 1em);
+    /*width: calc(100vw - 1em);*/
+    margin: .5em 1em;
+    background: darkgray;
+    text-align: center;
 }
 img {
     height: 224px;
@@ -31,7 +44,9 @@ img {
 }
 h1 {
     text-align: center;
+    margin: .25em auto.5em ;
 }
+
 
 /* Small devices (tablets, 768px and up) */
 @media screen and (min-width:768px) {
