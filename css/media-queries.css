@@ -5,10 +5,6 @@ body {
     margin: 0;
     box-sizing: border-box;
 }
-.alert-info>a {
-    text-decoration: none;
-    color: black;
-}
 .alert-info {
     border: 1px solid gray;
     padding: 1em 0;
@@ -16,8 +12,13 @@ body {
     text-align: center;
     margin:1em;
 }
-.nav-links a {
-    background: darkgray;
+.alert-info>a {
+    text-decoration: none;
+    color: black;
+}
+h1 {
+    text-align: center;
+    margin: .25em auto.5em ;
 }
 .nav-links {
     list-style: none;
@@ -31,6 +32,9 @@ body {
     background: darkgray;
     text-align: center;
 }
+.nav-links a {
+    background: darkgray;
+}
 img {
     height: 224px;
     width: 339px;
@@ -38,10 +42,6 @@ img {
 .header-img {
     display: flex;
     justify-content: center;
-}
-h1 {
-    text-align: center;
-    margin: .25em auto.5em ;
 }
 
 
@@ -51,7 +51,27 @@ h1 {
         background: none;
     }
 }
-
+section {
+    margin: 1em 1em 2.5em;
+}
+section h2 {
+    margin: 0;
+}
+section p {
+    margin: .5em 0;
+}
+.sub-section {
+    font-style: italic;
+}
+.sub-section h2 {
+    font-size: 1.25em;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin: 0 1em;
+}
 /* Medium devices (desktops, 992px and up) */
 @media screen and (min-width:992px) { /* ... */ }
 
